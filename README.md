@@ -44,7 +44,7 @@ This repository documents my structured, ground-up review of core Python program
 
 ## Tools
 
-- Python 3.11.9
+- Python 3.13
 - Visual Studio Code
 - Markdown for documentation
 

@@ -1,5 +1,5 @@
 """
-File: variables.py
+File: 02_variables.py
 Author: Kole Bauer
 Date: 11 August 2025
 Description: Demonstrates the basic function of variables in Python

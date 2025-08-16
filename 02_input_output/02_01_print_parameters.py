@@ -32,7 +32,7 @@ print("A", "B", "C", sep=" | ")      # Visually distinct columns
 print("Loading", end="...")  # No newline yet; next print continues the line
 print("done!")               # Appears on the same line: Loading...done!
 
-# You can also end with a custom marker + newline.
+# You can also end with a custom marker (like a check mark emoji) + newline.
 print("Step 1 complete", end=" ✔\n")
 print("Step 2 complete", end=" ✔\n")
 
@@ -69,8 +69,7 @@ print("$8.20")
 # Example 5: Common pitfalls (and fixes)
 # -------------------------------------------------------
 # 1) Unwanted spaces when mixing strings and numbers:
-#    Multiple arguments already insert the separator (default space). Avoid manual spaces
-#    inside strings unless you need them.
+# Multiple arguments already insert the separator (default space). Avoid manual spaces inside strings unless you need them.
 print("Count:", 3)           # Clean
 print("Count: ", 3)          # Works, but adds an extra space after ':'
 
@@ -82,10 +81,23 @@ print("Ready for next step.")
 
 
 # -------------------------------------------------------
-# Practice (optional): Try these on your own
+# Practice (optional): Try these on your own (Examples filled by Kole)
 # -------------------------------------------------------
 # 1) Print the words Monday, Tuesday, Wednesday on one line separated by commas (", ").
+print("Monday", "Tuesday", "Wednesday", sep=", ")
+
 # 2) Print "Ready", "Set", "Go!" on one line with arrows between them (e.g., "Ready -> Set -> Go!").
+print("Ready", "Set", "Go!", sep=" -> ")
+
 # 3) Print "Start:" and "Finish." so that both appear on the same line with a space between.
+print("Start:", end=" ")
+print("Finish.")
+
 # 4) Create a tiny two-row "table" header with a custom sep for alignment hints.
-# (Type your attempts below this comment to keep the examples above runnable as-is.)
+name = "Kole"
+age = 24
+print("", "NAME", "AGE", "", sep=" | ")
+print("", name, age, "", sep=" | ")
+
+# These practice problems were originally prompts.
+# I’ve filled in my own working solutions so this file doubles as both reference examples AND completed practice.

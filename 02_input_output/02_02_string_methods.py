@@ -61,5 +61,19 @@ print(messy.strip().lower(), "\n")
 
 
 # -------------------------------------------------------
-# Practice Section (filled by Kole) *in progress*
+# Practice Section (filled by Kole)
 # -------------------------------------------------------
+# 1) Store your favorite book title in a variable and print it in title case.
+favorite_book = input("What is the title of your favorite book?\n")
+print(favorite_book.title())
+
+# 2) Take a sentence and count how many times the letter "a" appears.
+sentence = "A long time ago in a galaxy far far away"
+print(f"The letter \"a\" appears {sentence.lower().count("a")} times in this sentence.")
+
+# 3) Print the same sentence in all caps.
+print(sentence.upper(), "\n")
+
+# 4) Combine .strip() and .lower() to clean messy input text.
+in_text = input("What are your 4 favorite colors? \n")
+print(in_text.lower().strip())
